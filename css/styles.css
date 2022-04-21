@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: yellow;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.app-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.search-characters-btn{
+    background-color: yellow;
+    border: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 15px 32px;
+    font-size:16px;
+    border-radius: 12px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.searchbar-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.buttons-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    max-width: 15%;
+    margin: 2rem;
+}
+
+.character-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
